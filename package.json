@@ -1,7 +1,7 @@
 {
-  "name": "11ty-sass-skeleton",
-  "version": "2.0.0",
-  "description": "Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.",
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "My personal Page",
   "main": "index.html",
   "scripts": {
     "watch:sass": "sass --watch src/sass:public/css",
@@ -15,10 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cjwinterhalter/cjwinterhalter.github.io.git"
+    "url": "git+https://github.com/cjwinterhalter/personalSite.git"
   },
-  "author": "5t3ph",
+  "author": "Christoph J. Winterhalter",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjwinterhalter/personalSite/issues"
+  },
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
     "cross-env": "^7.0.3",
